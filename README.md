@@ -1,8 +1,9 @@
 Install
-	easy_install tweepy-1.7.1-py2.6.egg
-	chmod +x *.py
-	mv *.py /usr/local/bin
-	cat nagios_commands.tpl >> /etc/nagios3/objects/commands.cfg
+
+* easy_install tweepy-1.7.1-py2.6.egg
+* chmod +x *.py
+* mv *.py /usr/local/bin
+* cat nagios_commands.tpl >> /etc/nagios3/objects/commands.cfg
 
 * register a new application at Twitter and use "Desktop Client" and "Read/Write Access"
 * copy Consumer key and secret into /usr/local/bin/twitter-python-register.py
